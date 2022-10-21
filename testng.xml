@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="false" verbose="2">
+    <test name="SignupTest" verbose="2">
+        <classes>
+            <class name="testcases.Signuptest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="SigninTest" verbose="3">
+        <classes>
+            <class name="testcases.Signintest">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
